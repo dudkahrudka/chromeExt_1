@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Coundown",
+    "version": "1.0",
+    "description": "This extension let you set up your own new tab countdown.",
+    "icons": {
+        "128": "icon.png"
+    },
+    
+    "permissions": ["tabs", "storage"],
+    
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "chrome_url_overrides": {
+        "newtab": "myPage.html"
+    }
+}

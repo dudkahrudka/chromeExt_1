@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+#clockdiv {
+    font-size: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#clockdiv > div {
+    margin: auto;
+    display: inline-block;
+    padding: 30px;
+    font-size: 80px;
+}
+
+#clockdiv > #event {
+    display: block;
+}
+
+.smalltext {
+    font-size: 16px;
+}
